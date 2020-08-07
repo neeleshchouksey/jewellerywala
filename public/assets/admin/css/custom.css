@@ -1,0 +1,321 @@
+.btn-danger {
+    font-weight: bold !important;
+}
+.btn-theme{
+    font-weight: bold !important;
+}
+.search-mt{
+    margin-top:1.9rem;
+}.search-mt1{
+     margin-top: 2.4rem;
+}
+.w-0 {
+    width: 0.8em !important;
+}
+.red-dot {
+    background-color: red;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 18px;
+}
+.tags-input-badge-selected-default {
+    color: #333;
+    background-color: #ffde00;
+}
+.tags-input-remove::before, .tags-input-remove::after{
+    background: #333;
+}
+/* ---Hiraola's Preloader---*/
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #333333;
+    z-index: 9999999999999;
+}
+
+.loading .middle {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.loading .middle .lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 64px;
+    height: 64px;
+}
+.mt-18{
+    margin-top:1.8rem;
+}
+.loading .middle .lds-ellipsis div {
+    position: absolute;
+    top: 27px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #ffde00;
+    -webkit-animation-timing-function: cubic-bezier(0, 1, 1, 0);
+    animation-timing-function: cubic-bezier(0, 1, 1, 0);
+}
+
+.loading .middle .lds-ellipsis div:nth-child(1) {
+    left: 6px;
+    -webkit-animation: lds-ellipsis1 0.6s infinite;
+    animation: lds-ellipsis1 0.6s infinite;
+}
+
+.loading .middle .lds-ellipsis div:nth-child(2) {
+    left: 6px;
+    -webkit-animation: lds-ellipsis2 0.6s infinite;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.loading .middle .lds-ellipsis div:nth-child(3) {
+    left: 26px;
+    -webkit-animation: lds-ellipsis2 0.6s infinite;
+    animation: lds-ellipsis2 0.6s infinite;
+}
+
+.loading .middle .lds-ellipsis div:nth-child(4) {
+    left: 45px;
+    -webkit-animation: lds-ellipsis3 0.6s infinite;
+    animation: lds-ellipsis3 0.6s infinite;
+}
+
+@-webkit-keyframes lds-ellipsis1 {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@keyframes lds-ellipsis1 {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes lds-ellipsis3 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+}
+
+@keyframes lds-ellipsis3 {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+}
+
+@-webkit-keyframes lds-ellipsis2 {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(19px, 0);
+        transform: translate(19px, 0);
+    }
+}
+
+@keyframes lds-ellipsis2 {
+    0% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    100% {
+        -webkit-transform: translate(19px, 0);
+        transform: translate(19px, 0);
+    }
+}
+
+.edit-profile-img{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.cursor-pointer{
+    cursor:pointer;
+}
+.color-red{
+    color: red;
+}
+.singel-product-imaeg img {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.singel-prodect-had {
+    box-shadow: 0 0 15px 0 #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.singel-prodect-content {
+    display: inline-flex;
+    width: 100%;
+    line-height: 4;
+}
+.s-p-contant0 {
+    display: inline-flex;
+    width: 40%;
+}
+.s-p-contant1 {
+    display: inline-flex;
+    width: 60%;
+}
+
+.s-p-id0 {
+    width: 45%;
+    font-weight: 700;
+}
+.s-p-id1 {
+    width: 65%;
+}
+.p-image-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 88%;
+    border-radius:5px ;
+    height: 0;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    font-size: 14px;
+    display: block;
+    background: #fddd02;
+    color: #333;
+    font-family: 'OpenSans-SemiBold';
+    align-items: center;
+    justify-content: center;
+}
+.p-image-content h6 {
+    font-size: 26px;
+    position: absolute;
+    top: 37%;
+    text-align: center;
+    left: 30%;
+}
+.s-image1:hover .p-image-content {
+    bottom: 0;
+    height: 150px;
+    opacity: 1;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.s-image2:hover .p-image-content2 {
+    bottom: 0;
+    height: 150px;
+    opacity: 1;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.p-image-content2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 88%;
+    border-radius:5px ;
+    height: 0;
+    text-align: center;
+    opacity: 0;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    font-size: 14px;
+    display: block;
+    background: #fddd02;
+    color: #333;
+    font-family: 'OpenSans-SemiBold';
+    align-items: center;
+    justify-content: center;
+}
+.p-image-content2 h6 {
+    font-size: 26px;
+    position: absolute;
+    top: 37%;
+    text-align: center;
+    left: 30%;
+}
+.sec-in-pro1 {
+    padding: 15px;
+    box-shadow: 0 0 10px 0 #ccc;
+    border-radius: 5px;
+}
+.sec-in-pro2 {
+    padding: 15px;
+    box-shadow: 0 0 10px 0 #ccc;
+    border-radius: 5px;
+    margin-top:30px ;
+}
+.avatar-container img {
+    height: 130px;
+}
+.detail-row {
+    display: flex;
+}
+.detail-row span:nth-child(1) {
+    width: 25%;
+    font-weight: 600;
+    line-height: 35px;
+}
+.detail-row span:nth-child(2) {
+    width: 75%;
+    font-weight: 500;
+    line-height: 35px;
+}
+.new-mod-btn-pr {
+    position: absolute;
+    top: -32%;
+    right: 15px;
+}
+
+
+@media only screen and (max-height: 767px) {
+    .new-mod-btn-pr {
+        position: absolute;
+        top: -120%;
+        right: -15px;
+    }
+}

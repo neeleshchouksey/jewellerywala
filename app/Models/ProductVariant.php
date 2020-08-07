@@ -1,0 +1,15 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class ProductVariant extends Model
+{
+    protected $table = "product_variants";
+
+    public function variantImages()
+    {
+        return $this->hasMany('App\Models\ProductVariantImage');
+    }
+}
